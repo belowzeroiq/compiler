@@ -1,6 +1,6 @@
-. ${ROOT_DIR}/${KERNEL_DIR}/build.config.common
-. ${ROOT_DIR}/${KERNEL_DIR}/build.config.aarch64
-. ${ROOT_DIR}/${KERNEL_DIR}/build.config.gki
+. build.config.common
+. build.config.aarch64
+. build.config.gki
 
 MAKE_GOALS="${MAKE_GOALS}
 Image.lz4
