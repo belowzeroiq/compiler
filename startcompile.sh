@@ -20,7 +20,7 @@ function build() {
 		echo gki detected!
 		sleep 3
 		echo compiling!
-        . build_gki.sh
+        . compile.sh
     else
 		echo non-gki detected!
 		sleep 3
